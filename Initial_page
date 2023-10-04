@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+        body {
+            background-image: url('geography_image_3.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- This makes the entire body of color white-->
+        <font color = "white">
+        <h1><center>How much do you know about geography?</center></h1>
+
+        <!--This is to set the paragraphs to a certain size-->
+        <font size = "5"
+
+        <p><center>Test your knowledge on different countries and there geography!<p>
+        <!--Button starts here-->
+        <button type="Start" onclick="loading">
+            <b><u>START</u></b></center></font>
+        </button>
+        
+        
+
+        </font>
+    </body>
+
+</html>
