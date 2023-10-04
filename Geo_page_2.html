@@ -1,0 +1,42 @@
+<html>
+    <head>
+            <title>Quiz</title>
+    </head>
+    <body><center>
+        <h1><b><center>GEOGRAPHY</center></b></h1>
+        <div id="quiz"
+        <h2><center>Question 1:</center></h2>
+        <img src="thailand_image.png" width="200" height="200">"
+        <h2>What country is this?</h2>
+        
+        <label>
+            <input type="radio" name="q1" value="a" > a) Vietnam
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="b" > b) Argentina
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="c" > c) Pakistan
+        </label><br> 
+        <label>
+            <input type="radio" name="q1" value="d" > d) Thailand
+        </label><br>
+
+        <button onclick="checkAnswer()">Submit</button>
+        </center>
+        </div>
+
+        <script>
+            function checkAnswer()  {
+                var answer = document.querySelector('input[name="q1"]:checked').value;
+
+                if (answer == "d") {
+                    alert("Correct Anwser!");
+                }
+                else {
+                    alert("Incorrect Answer!");
+                }
+            }
+        </script>
+    </body>
+</html>
